@@ -1,46 +1,67 @@
 
 <section id="content">
-	<p><h1>Contacto</h1></p>
+	<p><h2>Contactanos</h2></p>
 
-	<div id="form_register">
+	<article id="contactanos">
 			<?php echo form_open('home/envio'); ?>
 
 			<?php 
 				$name = array(
 							'name' => 'name',
 							'id' => 'name',
+							'class'=>'fade',
+							'required'=>'',
 							'value' => set_value('name')
+
 				);
 				$email = array(
 							'name' => 'email',
 							'id' => 'email',
+							'type'=>'email',
+							'required'=>'',
 							'value' => set_value('email')
 				);
-				$tel = array(
-							'name' => 'tel',
+				$asunto = array(
+							'name' => 'asunto',
 							'id' => 'username',
-							'value' => set_value('tel')
+							'required'=>'',
+							'value' => set_value('asunto')
 				);
 				$mensaje = array(
 							'name' => 'mensaje',
+							'id'=>'mensaje',
+							'required'=>'',
+							'rows'=>'6',
+							'cols'=>'50',
 							'id' => set_value('mensaje')
 							
 				);
 				 ?>
 
-				 <p><?php echo form_label('Nombre') ?>
-				 <?php echo form_input($name); ?></p>
-				 <p><?php echo form_label('Email') ?>
-				<?php echo form_input($email); ?></p>
-				 <p><?php echo form_label('Telefono') ?>	
-				 <?php echo form_input($tel); ?></p>
-				<p><?php echo form_label('Mensaje') ?>
-				<?php echo form_password($mensaje); ?></p>
-
-				<?php echo form_submit('submit','Enviar'); ?>
-
+				 <fielset>
+				 	<legend>Para mas informacion envie un correo llenando los datos del formulario </legend>
+				 </fieldset>
+				 	<div>	
+						 <?php echo form_label('Nombre: ') ?>
+						 <?php echo form_input($name); ?>
+					 </div>
+					 <div>
+						 <?php echo form_label('Email: ') ?>
+						 <?php echo form_input($email); ?>
+					 </div>
+					 <div>
+						 <?php echo form_label('Asunto: ') ?>	
+						 <?php echo form_input($asunto); ?>
+					 </div>
+					<div>
+						<?php echo form_label('Mensaje: ') ?>
+						<?php echo form_textarea($mensaje); ?>
+					</div>
+					<div>	
+						<?php echo form_submit('submit','Enviar'); ?>
+					</div>	
 			<?php echo form_close()?>
-		</div>
+		</article>
 
 		<div>
 		<?php echo  validation_errors(); ?>

@@ -158,7 +158,7 @@ hgroup h3{
 
 }
 
-#content  h1{
+#content  h1, h2{
 	padding:15px;
 	color: #1E90FF;
 }
@@ -191,6 +191,52 @@ hgroup h3{
 	color:white;
 	font-family: sigmar,Helvetica, Arial, sans-serif;
 	line-height: 30px;
+}
+
+form{
+	width:100%;
+}
+
+form div{
+	margin: 10px;
+
+}
+
+input[type="email"], input[type="text"], textarea {
+	border-radius: 10px;
+	padding:10px;
+	width:95%;
+
+}
+
+input[type="email"]:focus, input[type="text"]:focus,textarea:focus{
+	background: #C6ECF9;
+}
+
+input[type="submit"] {
+	background: #f90;
+	border-radius:5px;
+	padding: 5px;
+	color:#500;
+	font-family: "sigmar";
+}
+
+input[type="submit"]:hover {
+	background: #7BBFD5;
+	color: #000;
+	cursor:pointer;
+}
+form label{
+	text-align:justify;
+	color:white;
+}
+legend{
+	color:#f90;
+	font-weight:bold;
+}
+
+textarea{ 
+	resize:none;
 }
 
 footer{
