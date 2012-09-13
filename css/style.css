@@ -403,6 +403,8 @@ footer p{
 	background: #ccc;
 	display:inline-block;
 	margin:20px;
+	font-weight:bold;
+	color:rgb(154,205,50);
 	
 }
 

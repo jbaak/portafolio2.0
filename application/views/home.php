@@ -1,6 +1,6 @@
 
 <section id="content">
-	<p><h1>Licenciado en Ciencias Computacionales</h1></p>
+	<p><h2>Licenciado en Ciencias Computacionales</h2></p>
 
 	
 		<div id="mapa">
