@@ -4,6 +4,18 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'shadow';
+	src: url('../fonts/ShadowsIntoLightTwo-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'kne';
+	src: url('../fonts/Knewave-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
 
 *{
 	margin: 0;
@@ -13,7 +25,7 @@
 body {
 	background:url(../images/body.gif) 0 0 repeat-x #535353;
 	font-size:16px;
-	font-family:arial;
+	font-family:'shadow';
 	text-shadow: 1px 1px 0 rgba(0,0,0,.3);
 }
 
@@ -72,8 +84,8 @@ header {
 	-ms-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
-	opacity:0.7;
-	filter:alpha(opacity=7);
+	opacity:0.5;
+	filter:alpha(opacity=5);
 }
 
 nav, hgroup{
@@ -217,8 +229,16 @@ hgroup h3{
 	line-height: 30px;
 }
 
+#info-contacto span{
+	background: gray;
+	padding: 2px 10px;
+	color:white;
+	font-family: 'shadow';
+	line-height: 30px;
+}
+
 form{
-	width:50%;
+	width:95%;
 }
 
 form div{
@@ -229,32 +249,46 @@ form div{
 input[type="email"], input[type="text"], textarea {
 	border-radius: 10px;
 	padding:10px;
-	width:70%;
-
+	width:100%;
+	/* transicion*/
+	-webkit-transition: all 0.75s ease-in-out;
+	-moz-transition: all 0.75s ease-in-out;
+	-ms-transition: all 0.75s ease-in-out;
+	-o-transition: all 0.75s ease-in-out;
+	transition: all 0.75s ease-in-out;
 }
 
 input[type="email"]:focus, input[type="text"]:focus,textarea:focus{
 	background: #C6ECF9;
+	-webkit-box-shadow: 0px 0px 8px rgb(135,206,250);
+	-moz-box-shadow: 0px 0px 8px rgb(135,206,250);
+	box-shadow: 0px 0px 8px rgb(135,206,250);
 }
 
 input[type="submit"] {
-	background: #f90;
+	background: #1E90FF;
+	color: white;
 	border-radius:5px;
 	padding: 5px;
-	color:#500;
 	font-family: "sigmar";
 }
 
 input[type="submit"]:hover {
-	background: #7BBFD5;
-	color: #000;
+
 	cursor:pointer;
 }
 form label{
 	text-align:justify;
 	color:white;
 }
+
+fieldset {
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 10px;
+}
 legend{
+
 	color:#f90;
 	font-weight:bold;
 }
@@ -262,6 +296,21 @@ legend{
 textarea{ 
 	resize:none;
 }
+
+#info-contacto, #contactanos{
+	display: inline-block;
+	vertical-align:top;
+	margin:0 auto;
+	text-align:justify;
+	width:45%;
+	padding:10px;
+}
+#info-contacto{
+	color:#f90;
+	font-weight:bold;
+	width:30%;
+}
+
 
 footer{
 	max-width:100%;
