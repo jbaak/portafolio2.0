@@ -199,14 +199,14 @@ hgroup h3{
 	color: #1E90FF;
 }
 
-#mapa, #acerca{
+aside, #acerca{
 	max-width:100%;
 	display:inline-block;
 	vertical-align:top;
 	width:30%;
 }
 
-#mapa{
+aside{
 	
 }
 
