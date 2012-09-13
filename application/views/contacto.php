@@ -1,6 +1,6 @@
 
 <section id="content">
-	<p><h2>Cont&aacute;ctanos</h2></p>
+	<p><h2>Cont&aacute;ctame</h2></p>
 
 	<article id="info-contacto">
 		Merida, Yucatan, M&eacute;xico.
@@ -11,7 +11,7 @@
 		<br />
 		<br />
 		M&oacute;vil:
-		<span class="datos-cotacto">(+52)9991 983710</span>
+		<span class="datos-cotacto">(+52) 9991 983710</span>
 		<br />
 		<br />
 		Social Media:
@@ -67,8 +67,8 @@
 					);
 				 ?>
 
-				 <fielset>
-				 	<legend>Para mas informacion envie un correo llenando los datos del formulario </legend>
+				 <?php echo  form_fieldset('Para mas informacion envie un correo llenando los datos del formulario');?>
+				 	
 				 
 				 	<div>	
 						 <?php echo form_label('Nombre: ') ?>
@@ -96,7 +96,7 @@
 			<?php echo  validation_errors(); ?>
 			</div>
 
-			</fieldset>
+			<?php echo  form_fieldset_close();?>
 
 			<?php echo form_close()?>
 		</article>

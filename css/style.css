@@ -283,14 +283,13 @@ form label{
 }
 
 fieldset {
-	border: 1px solid white;
-	border-radius: 5px;
-	padding: 10px;
+	
 }
 legend{
 
 	color:#f90;
 	font-weight:bold;
+
 }
 
 textarea{ 
