@@ -12,7 +12,7 @@
 	</article>
 
 	<article class="webs">
-		<img width="200" heigth="260" src="<?php echo base_url(); ?>images/works/buscoamor.png" />
+		<img width="200" heigth="260" src="<?php echo base_url(); ?>images/works/buscoamor-small.png" />
 		<p>esta web es de prueba</p>
 	</article>
 
