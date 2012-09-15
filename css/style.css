@@ -197,6 +197,7 @@ hgroup h3{
 #content  h1, h2{
 	padding:15px;
 	color: #1E90FF;
+	text-align:center;
 }
 
 #content p{

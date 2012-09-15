@@ -27,8 +27,8 @@
 						<nav>
 								<ul>
 									<li><a href="<?php echo base_url();?>">ACERCA</a></li>
-									<li><a href="<?php echo base_url();?>home/trabajos">TRABAJOS</a></li>
-									<li><a href="<?php echo base_url();?>home/contacto">CONTACTO</a></li>
+									<li><a href="<?php echo base_url();?>projects/">TRABAJOS</a></li>
+									<li><a href="<?php echo base_url();?>contact">CONTACTO</a></li>
 								</ul>
 						</nav>
 						

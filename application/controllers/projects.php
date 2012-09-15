@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Projects extends CI_Controller {
 
 	public function __construct()
 	{
@@ -9,13 +9,10 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
-		$data['title'] = 'Mi Portafolio';
-		$data['main_content'] = 'home';
+		$data['title'] = 'Mi Trabajos';
+		$data['main_content'] = 'projects';
 		$this->load->view('includes/template',$data);
 	}
-
-
-	
 
 }
 
