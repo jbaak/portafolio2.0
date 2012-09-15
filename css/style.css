@@ -199,6 +199,11 @@ hgroup h3{
 	color: #1E90FF;
 }
 
+#content p{
+	font-weight:bold;
+	color:#f90
+}
+
 aside, #acerca{
 	max-width:100%;
 	display:inline-block;
@@ -227,6 +232,7 @@ aside{
 	color:white;
 	font-family: sigmar,Helvetica, Arial, sans-serif;
 	line-height: 30px;
+	font-weight:normal;
 }
 
 #info-contacto span{
