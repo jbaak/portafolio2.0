@@ -317,6 +317,17 @@ textarea{
 	width:30%;
 }
 
+.exito {  
+         background-color: gray;
+         border-radius: 25px;
+		-moz-border-radius: 25px;
+		-webkit-border-radius: 25px;
+		padding:10px; 
+		color:white;
+		margin-top:10px;
+
+}
+
 
 footer{
 	max-width:100%;

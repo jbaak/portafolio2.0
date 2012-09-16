@@ -1,5 +1,10 @@
-
+<script type="text/javascript">  
+$(document).ready(function(){  
+       setTimeout(function(){ $(".mensajes").fadeOut(800).fadeIn(800).fadeOut(500).fadeIn(500).fadeOut(300);}, 3000);   
+});  
+</script> 
 <section id="content">
+	<?php if(isset($mensaje)):?><div class="exito mensajes"><?php echo $mensaje;?></div><?php endif; ?>
 	<p><h2>Cont&aacute;ctame</h2></p>
 
 	<article id="info-contacto">
@@ -28,33 +33,36 @@
 	</article>
 
 	<article id="contactanos">
+
+			
+
 			<?php echo form_open('contact/envio'); ?>
 
 			<?php 
 				$name = array(
 							'name' => 'name',
 							'id' => 'name',
-							'required'=>'',
+							//'required'=>'',
 							'value' => set_value('name')
 
 				);
 				$email = array(
 							'name' => 'email',
 							'id' => 'email',
-							'type'=>'email',
-							'required'=>'',
+							//'type'=>'email',
+							//'required'=>'',
 							'value' => set_value('email')
 				);
 				$asunto = array(
 							'name' => 'asunto',
-							'id' => 'username',
-							'required'=>'',
+							'id' => 'asunto',
+							//'required'=>'',
 							'value' => set_value('asunto')
 				);
 				$mensaje = array(
 							'name' => 'mensaje',
 							'id'=>'mensaje',
-							'required'=>'',
+							//'required'=>'',
 							'rows'=>'4',
 							'cols'=>'50',
 							'id' => set_value('mensaje')
