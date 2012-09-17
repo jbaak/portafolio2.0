@@ -42,7 +42,7 @@ $(document).ready(function(){
 				$name = array(
 							'name' => 'name',
 							'id' => 'name',
-							//'required'=>'',
+							'required'=>'',
 							'value' => set_value('name')
 
 				);
@@ -50,19 +50,19 @@ $(document).ready(function(){
 							'name' => 'email',
 							'id' => 'email',
 							//'type'=>'email',
-							//'required'=>'',
+							'required'=>'',
 							'value' => set_value('email')
 				);
 				$asunto = array(
 							'name' => 'asunto',
 							'id' => 'asunto',
-							//'required'=>'',
+							'required'=>'',
 							'value' => set_value('asunto')
 				);
 				$mensaje = array(
 							'name' => 'mensaje',
 							'id'=>'mensaje',
-							//'required'=>'',
+							'required'=>'',
 							'rows'=>'4',
 							'cols'=>'50',
 							'id' => set_value('mensaje')

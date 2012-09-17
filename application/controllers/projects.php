@@ -9,6 +9,8 @@ class Projects extends CI_Controller {
 
 	public function index()
 	{
+		$this->load->model('Projects_Model');
+		$data['projects'] = $this->Projects_Model->get_projects();
 		$data['title'] = 'Mi Trabajos';
 		$data['main_content'] = 'projects';
 		$this->load->view('includes/template',$data);
