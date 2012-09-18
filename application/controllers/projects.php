@@ -18,6 +18,7 @@ class Projects extends CI_Controller {
 		$config['base_url'] = base_url()."projects/paginacion";
 		$config['total_rows'] = $total;
 		$config['per_page']= '4';
+		
 		$this->pagination->initialize($config);
 
 		$paginacion = $this->pagination->create_links();
