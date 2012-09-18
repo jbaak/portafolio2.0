@@ -343,6 +343,7 @@ footer{
 	max-width:100%;
 	background: #222222;
 	color:white;
+	height:220px;
 	/* Sombra*/
 	-webkit-box-shadow: 1px 1px 8px #292929;
 	-moz-box-shadow: 1px 1px 8px #292929;
@@ -373,6 +374,18 @@ footer{
 	padding-left:10px;
 
 }
+
+.col_i a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}
+
+.bordes_r {
+	 border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
 .col_d p{
 	padding-left:22px;
 }
@@ -381,7 +394,7 @@ footer{
 	text-align:right;
 }
 
-.col_d a, .col_i a{
+.col_d a{
 	
 	background: gray;
 	padding-top:0px;
