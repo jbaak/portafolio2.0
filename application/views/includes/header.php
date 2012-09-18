@@ -11,6 +11,37 @@
 	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
 	<script type="text/javascript" src="<?php echo base_url(); ?>js/funciones.js"></script>
 
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.fancybox.js?v=2.1.0"></script>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/jquery.fancybox.css?v=2.1.0" media="screen" />
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/jquery.fancybox-buttons.css?v=1.0.3" />
+	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.fancybox-buttons.js?v=1.0.3"></script>
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/jquery.fancybox-thumbs.css?v=1.0.6" />
+	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.fancybox-thumbs.js?v=1.0.6"></script>
+
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.fancybox-media.js?v=1.0.3"></script>
+
+	<script>
+		$(document).ready(function(){
+			$("a[rel=trabajos]").fancybox({
+				"transitionIn": "fade",
+				"transitionOut": "elastic",
+				"titlePosition": "over",
+				"titleFormat": function(title, currentArray,currentIndex, currentOpts){
+					return "<span id='fancybox-title-over'>	Trabajo"+(currentIndex+1)+" de "+ currentArray.length+(title.length?"&nbsp;"+title:"")+"</span>"
+				}
+			});
+		});
+	</script>
+
 
 	
 

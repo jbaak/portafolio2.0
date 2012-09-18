@@ -416,7 +416,7 @@ footer p{
 .webs{
 	width:200px;
 	padding:10px;
-	border:solid 1px white;
+	border:solid 10px #535353;
 	background: #ccc;
 	display:inline-block;
 	margin:20px;
@@ -426,6 +426,7 @@ footer p{
 }
 
 .webs img{
+	border: solid 1px white;
 	height:180px;
 	-webkit-transition: .2s ;
 	-moz-transition: .2s;
@@ -441,6 +442,10 @@ footer p{
 	-o-transform:scale(1.1);
 	transform:scale(1.1);
 	
+}
+
+.webs a{
+	text-decoration:none;
 }
 
 @media(min-width:1081px){
