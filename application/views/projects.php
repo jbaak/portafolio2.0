@@ -13,6 +13,6 @@
 		}	
 		?>
 	</section>
-
+	<div id="paginacion" ><?php echo $paginacion; ?></div>
 </section>
 

@@ -5,9 +5,19 @@ class Projects_Model extends CI_Model{
 			parent::__construct();
 	}
 
-	public function get_projects(){
+	public function get_projects($desde = null){
+		if(isset($desde)){
+			$desd= $desde;
+		}else{
+			$desd= 0;
+		}
 		
-		return  $this->db->query("select * from projects");
+		return  $this->db->query("select * from projects limit $desd, 4");
+	}
+
+	public function total(){
+		$query = $this->db->query("select * from projects");
+		return $query->num_rows();
 	}
 }
 
