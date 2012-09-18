@@ -12,7 +12,7 @@ class Projects extends CI_Controller {
 		$this->load->model('Projects_Model');
 		$this->load->library('pagination');
 
-		$projects =$this->Projects_Model->get_projects($desde=null);
+		$projects =$this->Projects_Model->get_projects($desde);
 		$total = $this->Projects_Model-> total();
 
 		$config['base_url'] = base_url()."projects/paginacion";

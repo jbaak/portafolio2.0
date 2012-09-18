@@ -328,6 +328,16 @@ textarea{
 
 }
 
+#paginacion {
+	font-weight:bold;
+	color: white;
+}
+
+#paginacion a{
+	text-decoration:none;
+	color: rgb(154,205,50);
+}
+
 
 footer{
 	max-width:100%;
