@@ -344,7 +344,7 @@ footer{
 	vertical-align:top;
 	max-width:100%;
 	width:48%;
-	padding-top:30px;
+	padding-top:20px;
 		
 }
 .col_d{
@@ -355,8 +355,12 @@ footer{
 	text-align:left;
 }
 
+.col_i h2{
+	padding-left:0;
+	margin-left:0;
+}
 .col_i p{
-	padding-left:22px;
+	padding-left:10px;
 
 }
 .col_d p{
@@ -367,7 +371,7 @@ footer{
 	text-align:right;
 }
 
-.col_d a{
+.col_d a, .col_i a{
 	
 	background: gray;
 	padding-top:0px;
@@ -375,9 +379,8 @@ footer{
 	padding-right:9px;
 	padding-bottom:0px;
 	color:white;
-	font-family: sigmar,Helvetica, Arial, sans-serif;
+	font-family: 'shadow';
 	line-height: 30px;
-	text-transform: uppercase;
 	font-size: 22px;
 	text-decoration:none;
 	/* transicion*/
@@ -388,7 +391,7 @@ footer{
 	transition: all 0.5s ease-in;
 }
 
-.col_d a:hover {
+.col_d a:hover, .col_i a:hover {
 	background:rgba(0,0,0,.5);
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
@@ -411,6 +414,7 @@ footer h2{
 footer p{
 	padding-top:20px;
 	font-size:16px;
+
 }
 
 .webs{
