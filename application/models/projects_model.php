@@ -12,7 +12,7 @@ class Projects_Model extends CI_Model{
 			$desd= 0;
 		}
 		
-		return  $this->db->query("select * from projects limit $desd, 4");
+		return  $this->db->query("select * from projects limit $desd, 6");
 	}
 
 	public function total(){
