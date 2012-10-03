@@ -13,7 +13,7 @@
 		<div class="col_d">
 			<h2>desarrollado por</h2>
 			
-			<p><a href="" target="_blank">@jbaak</a></p>
+			<p><a href="http://twitter.com/jbaak" target="_blank">@jbaak</a></p>
 		</div>
 
 	</div>	
