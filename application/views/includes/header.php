@@ -3,7 +3,7 @@
 <head>
 	<title><?php echo  $title; ?></title>
 	<meta charset="utf-8">
-	<meta name="description" content="Bienvenido a mi portafolio web | Jesus Baak Web Developer">
+	<meta name="description" content="Bienvenido a mi portafolio web | Jesus Baak Desarrollador Web de Merida, Yucatan , Mexico">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 
@@ -57,7 +57,7 @@
 		<header>
 			<div class="wrap">
 					
-					<div class="pic"><img src="<?php echo base_url();?>images/jesus.jpg" alt="Jesus Baak baak | Web Developer from Merida, México" /></div>
+					<div class="pic"><img src="<?php echo base_url();?>images/jesus.jpg" alt="Jesus Baak Desarrollador Web de Merida, Yucatan , Mexico" /></div>
 
 					<div id="der">	
 						<nav>
@@ -71,8 +71,8 @@
 						
 						<hgroup>
 								<h1><strong>Jesus</strong> Baak</h1>
-								<h2><strong>Web</strong> Developer</h2>
-								<h3>From México</h3>
+								<h2><strong>Desarrollador</strong> Web</h2>
+								<h3>de  M&eacute;xico</h3>
 						</hgroup>
 					</div>
 
