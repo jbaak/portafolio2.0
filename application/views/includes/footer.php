@@ -3,9 +3,9 @@
 	<div class="wrap">
 		<div class="col_i">
 			<h2>Powered with</h2>
-			<p><a class="fade" href="http://www.w3.org/html/logo/">
+			<p><a class="fade" href="http://www.w3.org/html/logo/" target="_blank">
 <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="140" height="55" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
-</a> <a href="http://codeigniter.com" class="fade" tarjet="_blank"><img width="55" height="55" class="bordes_r" src="<?php echo  base_url()?>/images/ci_logo_flame.png">CodeIgniter</a></p>
+</a> <a href="http://codeigniter.com" class="fade" target="_blank"><img width="55" height="55" class="bordes_r" src="<?php echo  base_url()?>/images/ci_logo_flame.png">CodeIgniter</a></p>
 			
 
 			
