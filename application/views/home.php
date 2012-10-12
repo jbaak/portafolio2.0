@@ -7,7 +7,7 @@
 		<br/><br/>
 		<!--twitter-->
 		<script src="http://platform.twitter.com/widgets.js"></script>
-		<a href="http://twitter.com/share" class="twitter-share-button" data-text="Web Developer Jesus Baak" data-url="http://jesusbaak.com.mx" data-count="vertical">Twittear</a>
+		<a href="http://twitter.com/share" class="twitter-share-button" data-text="Jesus Baak Desarrollador Web de M&eacute;rida, Yucat&aacute;n , M&eacute;xico" data-url="http://jesusbaak.com.mx" data-count="vertical">Twittear</a>
 		<br/><br/>
 		<!-- facebook-->
 		<div id="fb-root"></div>		
@@ -21,7 +21,7 @@
 	<section id="acerca">
 		<article>
 		<p><h2>Acerca de mi</h2></p>
-		<p>Mi nombre es Jesus Baak soy Licenciado en Ciencias Computacionales, tengo 27 años de edad y  soy originario de  Merida, Yucatan, M&eacute;xico :D</p>
+		<p>Mi nombre es Jesus Baak soy Licenciado en Ciencias Computacionales, tengo 27 años de edad y  soy originario de   M&eacute;rida, Yucat&aacute;n , M&eacute;xico :D</p>
 		<p>Me puedo definir como un "Autodidacta, Apasionado por el desarrollo de aplicaciones Web y las nuevas tecnologías" soy una persona que esta en constante aprendizaje. </p>
 		<p>Aguila de corazon y adicto al cafe ... por cierto si estas mirando esto desde internet explorer, de verdad ... no eres digno de ver bordes redondeados ni sombritas xD </p>
 		
