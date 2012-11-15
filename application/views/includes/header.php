@@ -63,8 +63,8 @@
 						<nav>
 								<ul>
 									<li><a href="<?php echo base_url();?>">ACERCA</a></li>
+									<li><a href="<?php echo base_url();?>services">SERVICIOS</a></li>
 									<li><a href="<?php echo base_url();?>projects/">TRABAJOS</a></li>
-									<!-- <li><a href="<?php echo base_url();?>services">SERVICIOS</a></li>-->
 									<li><a href="<?php echo base_url();?>contact">CONTACTO</a></li>
 								</ul>
 						</nav>
