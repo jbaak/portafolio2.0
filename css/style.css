@@ -63,6 +63,10 @@ header {
 	width:48%;
 }
 
+img{
+	max-width: 100%;
+}
+
 .pic img {
 	border: 18px solid #222222;
 	max-width:100%;
@@ -479,11 +483,58 @@ footer p{
 	color: #FF9900;
 }
 
-@media(min-width:1081px){
+/** estilos servicios*/
+
+ol {
+	padding: 0 16px
+}
+
+ol li{
+	padding: 16px 0;
+}
+
+#servicios-principal img{
+	border-radius: 8px;
+	/*max-width: 30%;*/
+}
+
+
+section#servicios-principal, section#servicios-tipos {
+	margin: 0 auto;
+	max-width: 95%;
+}
+
+#img-servicios, article#nuestros-servicios{
+	display: inline-block;
+	margin: o auto;
+	vertical-align: top;
+	width: 40%;
+}
+
+article#nuestros-servicios, article#servicio1 , article#servicio2, article#servicio3 {
+	background: #1E6381;
+	border-radius:  8px;
+	max-width: 100%;
+	min-height: 300px;
+	padding: 8px;
+	text-align: justify;
+	width: 55%;
+}
+
+article#servicio1 , article#servicio2, article#servicio3{
+	background: #011E30;
+	display: inline-block;
+	width: 31%;
+	vertical-align: top;
+}
+
+
+
+@media screen and(min-width:1081px){
 	
 }
 
-@media(max-width:1080px){
+@media screen and(max-width:1080px){
 	
 	hgroup h2{
 		font-size:30px;
@@ -494,7 +545,7 @@ footer p{
 	}
 }
 
-@media(max-width:940px){
+@media screen and(max-width:940px){
 	.wrap{
 		max-width:90%;
 	}
@@ -522,7 +573,7 @@ footer p{
 
 }	
 
-@media(max-width:840px){
+@media screen and(max-width:840px){
 	.pic{
 		display:block;
 		width:100%;
@@ -547,7 +598,7 @@ footer p{
 	}
 }
 
-@media(max-width:500px){
+@media screen and(max-width:500px){
 	.col_i h2, .col_d h2{
 		font-size:30px;
 	}
