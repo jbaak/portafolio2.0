@@ -8,6 +8,7 @@
 	
 
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css" >
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/responsive.css" >
 	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
 	<script type="text/javascript" src="<?php echo base_url(); ?>js/funciones.js"></script>
 

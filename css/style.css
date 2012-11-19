@@ -56,11 +56,11 @@ header {
 }
 
 #der{
-	width:46%;	
+	max-width:55%;	
 }
 
 .pic{
-	width:48%;
+	max-width:40%;
 }
 
 img{
@@ -529,85 +529,3 @@ article#servicio1 , article#servicio2, article#servicio3{
 }
 
 
-
-@media screen and(min-width:1081px){
-	
-}
-
-@media screen and(max-width:1080px){
-	
-	hgroup h2{
-		font-size:30px;
-	}
-
-	hgroup h3{
-		font-size:30px;
-	}
-}
-
-@media screen and(max-width:940px){
-	.wrap{
-		max-width:90%;
-	}
-	#content{
-		max-width:90%;
-	}
-
-	.pig img{
-		text-align:left;
-
-	}
-
-	hgruop h1,h2,h3{
-		padding-left:5px;
-	}
-
-	hgroup h2{
-		font-size:25px;
-	}
-
-	hgroup h3{
-		font-size:25px;
-	}
-
-
-}	
-
-@media screen and(max-width:840px){
-	.pic{
-		display:block;
-		width:100%;
-		margin: 0;
-		padding-bottom:0;
-	}
-
-	#der{
-		margin-top:0;
-	}
-
-	hgroup{
-		margin-top:0;
-	}
-
-	.pic img{
-		max-width:100%;
-	}
-	#der{
-		display:block;
-		width:100%;
-	}
-}
-
-@media screen and(max-width:500px){
-	.col_i h2, .col_d h2{
-		font-size:30px;
-	}
-
-	.pic{
-		width:80%;
-		margin:0 auto;
-	}
-
-
-	
-}

@@ -1,0 +1,90 @@
+@media(min-width:1262px){
+	
+}
+
+@media(max-width:1122px){
+	hgroup h2{
+		font-size:30px;
+	}
+
+	hgroup h3{
+		font-size:30px;
+	}
+	
+}
+
+@media(max-width:1080px){
+	
+
+	.wrap{
+		max-width:90%;
+	}
+	#content{
+		max-width:90%;
+	}
+
+	
+}
+
+@media(max-width:940px){
+
+	
+
+	.pig img{
+		text-align:left;
+
+	}
+
+	hgruop h1,h2,h3{
+		padding-left:5px;
+	}
+
+	hgroup h2{
+		font-size:25px;
+	}
+
+	hgroup h3{
+		font-size:25px;
+	}
+
+
+}	
+
+@media(max-width:840px){
+	.pic{
+		display:block;
+		width:100%;
+		margin: 0;
+		padding-bottom:0;
+	}
+
+	#der{
+		margin-top:0;
+	}
+
+	hgroup{
+		margin-top:0;
+	}
+
+	.pic img{
+		max-width:100%;
+	}
+	#der{
+		display:block;
+		width:100%;
+	}
+}
+
+@media(max-width:500px){
+	.col_i h2, .col_d h2{
+		font-size:30px;
+	}
+
+	.pic{
+		width:80%;
+		margin:0 auto;
+	}
+
+
+	
+}
