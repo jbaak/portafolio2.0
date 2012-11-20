@@ -4,7 +4,7 @@
 	<title><?php echo  $title; ?></title>
 	<meta charset="utf-8">
 	<meta name="description" content="Bienvenido a mi portafolio web | Jesus Baak Desarrollador Web de Merida, Yucatan , Mexico">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css" >

@@ -1,89 +1,105 @@
-@media(min-width:1262px){
+
+@media(max-width:1140px){
+	.pic img {
+	max-width:70%;
+	}
+
+hgroup h1, hgroup h2, hgroup h3{
+	font-size:30px;
+	line-height: 20px;
+	}
+
+hgroup h3{
+	
+	line-height: 50px;
+	}
 	
 }
 
-@media(max-width:1122px){
-	hgroup h2{
-		font-size:30px;
+@media(max-width:1065px){
+	
+	.wrap, #content {
+		max-width: 90%;
+	}
+	
+}
+
+@media(max-width:950px){
+
+	.wrap, #content {
+		max-width: 95%;
+	}
+	
+
+	.pic{
+		max-width: 30%;
+	}
+
+	#der{
+		max-width: 65%;
+	}
+
+	hgroup h1, hgroup h2, hgroup h3{
+	font-size:24px;
 	}
 
 	hgroup h3{
-		font-size:30px;
-	}
 	
-}
-
-@media(max-width:1080px){
-	
-
-	.wrap{
-		max-width:90%;
-	}
-	#content{
-		max-width:90%;
+	line-height: 38px;
 	}
 
-	
-}
-
-@media(max-width:940px){
-
-	
-
-	.pig img{
-		text-align:left;
-
-	}
-
-	hgruop h1,h2,h3{
-		padding-left:5px;
-	}
-
-	hgroup h2{
-		font-size:25px;
-	}
-
-	hgroup h3{
-		font-size:25px;
-	}
 
 
 }	
 
-@media(max-width:840px){
-	.pic{
-		display:block;
-		width:100%;
-		margin: 0;
-		padding-bottom:0;
-	}
+@media(max-width:760px){
+	
 
-	#der{
-		margin-top:0;
-	}
-
-	hgroup{
-		margin-top:0;
+	.pic, #der{
+		display: block;
+		max-width: 100%;
 	}
 
 	.pic img{
-		max-width:100%;
+		max-width: 30%;
 	}
-	#der{
-		display:block;
-		width:100%;
-	}
-}
 
-@media(max-width:500px){
+	aside, section#acerca{
+		display: block;
+		max-width: 100%;
+	}
+
 	.col_i h2, .col_d h2{
-		font-size:30px;
+		font-size:24px;
 	}
 
-	.pic{
-		width:80%;
-		margin:0 auto;
+}
+	
+
+@media(max-width:515px){
+	
+/*#content{
+		background-color: white;
+	}*/
+
+	nav ul li{
+		display: block;
+		max-width: 100%;
+		margin-bottom: 2px;
 	}
+
+	nav ul li a {
+		max-width: 100%;
+		padding:8px 40px;
+
+	}
+
+	.col_d, .col_i {
+		display: block;
+		max-width: 100%;
+		text-align: justify;
+	}
+
 
 
 	
