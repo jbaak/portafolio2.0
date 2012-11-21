@@ -17,14 +17,26 @@ hgroup h3{
 }
 
 @media(max-width:1065px){
+
+	
 	
 	.wrap, #content {
 		max-width: 90%;
+	}
+
+	#info-contacto{
+		max-width: 40%;
+	}
+
+	#contactanos{
+		max-width: 55%;
 	}
 	
 }
 
 @media(max-width:950px){
+
+
 
 	.wrap, #content {
 		max-width: 95%;
@@ -53,6 +65,20 @@ hgroup h3{
 }	
 
 @media(max-width:760px){
+
+	.pic{
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+
+	}
+
+	#der{
+			margin-top: 0px;
+		}
+
+	hgroup{
+		margin-top: 6px;
+	}
 	
 
 	.pic, #der{
@@ -74,23 +100,51 @@ hgroup h3{
 	}
 
 }
+
+@media(max-width:655px){
+	
+
+	article#info-contacto, article#contactanos{
+		display: block;
+		max-width: 100%;
+	}
+
+	article#contactanos{
+		max-width: 80%;
+	}
+
+	article#info-contacto{
+		text-align: center;
+	}
+}
 	
 
 @media(max-width:515px){
+	
 	
 /*#content{
 		background-color: white;
 	}*/
 
+	hgroup{
+		margin-top: 6px;
+	}
+
+	hgroup h1, hgroup h2{
+	
+	line-height: 15px;
+	}
+
 	nav ul li{
 		display: block;
 		max-width: 100%;
 		margin-bottom: 2px;
+
 	}
 
 	nav ul li a {
 		max-width: 100%;
-		padding:8px 40px;
+		padding:0px 40px;
 
 	}
 
@@ -100,6 +154,7 @@ hgroup h3{
 		text-align: justify;
 	}
 
+	
 
 
 	

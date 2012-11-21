@@ -174,14 +174,14 @@ hgroup h1{
 
 hgroup h2{
 	font-size:40px;
-	line-height: 40px;
+	line-height: 30px;
 	color: #1E90FF ;
 	text-shadow: 5px 5px 10px rgba(255,255,255,0.5);
 }
 
 hgroup h3{
 	font-size:40px;
-	line-height: 60px;
+	line-height: 50px;
 	color:rgb(154,205,50);
 }
 
@@ -309,13 +309,13 @@ textarea{
 	vertical-align:top;
 	margin:0 auto;
 	text-align:justify;
-	width:45%;
+	max-width:45%;
 	padding:10px;
 }
 #info-contacto{
 	color:#f90;
 	font-weight:bold;
-	width:30%;
+	max-width:30%;
 }
 
 .exito {  
