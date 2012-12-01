@@ -208,22 +208,39 @@ hgroup h3{
 
 #content p{
 	font-weight:bold;
-	color:#f90
+	color:#f90;
 }
 
 aside, section#acerca{
 	display:inline-block;
 	vertical-align:top;
-	max-width:30%;
+	max-width:15%;
+	width: 15%;
 }
 
 section#acerca{
-	max-width:65%;
+	max-width:75%;
+	width: 75%;
 	color:rgb(154,205,50); 
 	text-align:justify;
 	padding:10px;
 
 }
+
+#twitter{
+	margin-top: 80px;
+	display: block;
+	max-width: 95%;
+}
+
+#facebook{
+	margin-top: 30px;
+	display: block;
+	max-width: 95%;
+	
+}
+
+
 
 section#acerca span{
 	background: gray;

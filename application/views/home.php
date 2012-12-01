@@ -4,16 +4,19 @@
 
 	
 		<aside>
-		<br/><br/>
-		<!--twitter-->
+		<div id="twitter">
+			<!--twitter-->
 		<script src="http://platform.twitter.com/widgets.js"></script>
 		<a href="http://twitter.com/share" class="twitter-share-button" data-text="Jesus Baak Desarrollador Web de M&eacute;rida, Yucat&aacute;n , M&eacute;xico" data-url="http://jesusbaak.com.mx" data-count="vertical">Twittear</a>
-		<br/><br/>
+		
+		</div>	
+		
+		<div id="facebook">
 		<!-- facebook-->
 		<div id="fb-root"></div>		
 			<script src="http://connect.facebook.net/es_LA/all.js#xfbml=1"></script>
 			<fb:like href="https://www.facebook.com/webdeveloperjb" send="false" layout="box_count" show-faces="false" font="tahoma"></fb:like>
-		<br/><br/>
+		</div>
 
 		</aside>
 
