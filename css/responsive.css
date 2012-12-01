@@ -35,7 +35,24 @@ hgroup h3{
 }
 
 @media(max-width:950px){
+	.pic{
+		margin-bottom: 0px;
+		padding-bottom: 0px;
 
+	}
+
+	#der{
+			margin-top: 0px;
+		}
+
+	nav ul li{
+		margin-bottom: 2px;
+
+	}
+
+	hgroup{
+		margin-top: 10px;
+	}
 
 
 	.wrap, #content {
@@ -65,16 +82,6 @@ hgroup h3{
 }	
 
 @media(max-width:760px){
-
-	.pic{
-		margin-bottom: 0px;
-		padding-bottom: 0px;
-
-	}
-
-	#der{
-			margin-top: 0px;
-		}
 
 	hgroup{
 		margin-top: 6px;
@@ -145,13 +152,17 @@ hgroup h3{
 	nav ul li a {
 		max-width: 100%;
 		padding:0px 40px;
-
 	}
 
 	.col_d, .col_i {
 		display: block;
 		max-width: 100%;
-		text-align: justify;
+		width: 100%;
+		text-align: center;
+	}
+
+	.col_i h2, .col_d h2{
+		text-align: center;
 	}
 
 	
