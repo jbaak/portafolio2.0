@@ -3,7 +3,9 @@
 <head>
 	<title><?php echo  $title; ?></title>
 	<meta charset="utf-8">
-	<meta name="description" content="Bienvenido a mi portafolio web | Jesus Baak Desarrollador Web de Merida, Yucatan , Mexico">
+	<meta name="author" content="L.C.C. Jesus J. Baak Baak"/>
+	<meta name="description" content="Portafolio Web de Jesus Baak, Desarrollador Web de M&eacute;rida, Yucat&aacute;n , M&eacute;xico">
+	<meta name="keywords" content="Desarrollador Web, Desarrollador PHP, Programador Web, Programador PHP, Programador, Desarrollador, Portafolio, Servicios, Web, Merida, Yucatan, Mexico, PHP, POO, MVC, ZANPHP, CodeIgniter, Joomla, Wordpress, Javascript, Ajax, JQuery, HTML5, CSS3, Sql, MySql, Api, Framework, Bootstrap de Twitter, Api de Facebook, Responsive Design, Api Google Maps"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 
