@@ -27,7 +27,7 @@ $config['base_url']	= 'http://localhost/portafolio2.0';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -225,7 +225,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'b84f57874b8d485d0f5bc7f1572a223a';
 
 /*
 |--------------------------------------------------------------------------

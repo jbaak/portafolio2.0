@@ -8,10 +8,11 @@
 	<meta name="keywords" content="Desarrollador Web, Desarrollador PHP, Programador Web, Programador PHP, Programador, Desarrollador, Portafolio, Servicios, Web, Merida, Yucatan, Mexico, PHP, POO, MVC, ZANPHP, CodeIgniter, Joomla, Wordpress, Javascript, Ajax, JQuery, HTML5, CSS3, Sql, MySql, Api, Framework, Bootstrap de Twitter, Api de Facebook, Responsive Design, Api Google Maps"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/flexslider.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css" >
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/responsive.css" >
 	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.flexslider.js"></script>
 	<script type="text/javascript" src="<?php echo base_url(); ?>js/funciones.js"></script>
 
 	<!-- Add mousewheel plugin (this is optional) -->
@@ -42,6 +43,12 @@
 					return "<span id='fancybox-title-over'>	Trabajo"+(currentIndex+1)+" de "+ currentArray.length+(title.length?"&nbsp;"+title:"")+"</span>"
 				}
 			});
+		});
+	</script>
+
+	<script type="text/javascript">
+		$(window).load(function(){
+			$(".flexslider").flexslider();
 		});
 	</script>
 

@@ -12,6 +12,8 @@ class Home extends CI_Controller {
 		$data['title'] = 'Mi Portafolio';
 		$data['main_content'] = 'home';
 		$this->load->view('includes/template',$data);
+		
+		
 	}
 
 

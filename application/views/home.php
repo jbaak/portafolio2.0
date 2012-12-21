@@ -1,7 +1,7 @@
 
 <section id="content">
 	
-
+	
 	
 		<aside>
 		<div id="twitter">
