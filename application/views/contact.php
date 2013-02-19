@@ -3,24 +3,42 @@ $(document).ready(function(){
        setTimeout(function(){ $(".mensajes").fadeOut(800).fadeIn(800).fadeOut(500).fadeIn(500).fadeOut(300);}, 3000);   
 });  
 </script> 
-<section id="content">
-	<?php if(isset($mensaje)):?><div class="exito mensajes"><?php echo $mensaje;?></div><?php endif; ?>
-	<p><h2>Cont&aacute;ctame</h2></p>
 
+<div class="wrap sombra">
+<center>	
+<section id="contact">
+	<?php if(isset($mensaje)):?><div class="exito mensajes"><?php echo $mensaje;?></div><?php endif; ?>
+	
+	<div class="separador"></div>
+	<div class="separador"></div>
+				
+<h2>Si llegaste hasta aqui, tal vez quieras saber mas :)  </h2>
+
+<div class="separador"></div>
 	<article id="info-contacto">
-		Merida, Yucatan, M&eacute;xico.
+		<div class="tit">
+					<div class="titulo"><img src="<?php echo BASE_URL()?>images/iconos/list2.png"></div>
+					<div class="forma"></div>
+					<h2>Mis datos</h2>
+		</div>
+
+		<p>Merida, Yucatan, M&eacute;xico.</p>
+		
 		<br/>
-		<br/>
-		Email:
+		<p>Email:
 		<span class="datos-cotacto">jesusbaak@hotmail.com</span>
+		</p>
+		
 		<br />
-		<br />
+		<p>
 		M&oacute;vil:
 		<span class="datos-cotacto">(+52) 9991 983710</span>
+		</p>
+		
 		<br />
-		<br />
+		<p>
 		Social Media:
-		<br />
+		</p>
 		<br />
 		<p>
 			 <a href="http://facebook.com/jesusbaak" class="fade" title="Facebook" target="_blank"><img src="<?php echo base_url(); ?>images/iconos/Face_c.png"/></a>
@@ -33,7 +51,11 @@ $(document).ready(function(){
 	</article>
 
 	<article id="contactanos">
-
+			<div class="tit">
+					<div class="titulo"><img src="<?php echo BASE_URL()?>images/iconos/mail2.png"></div>
+					<div class="forma"></div>
+					<h2>Envia un e-mail</h2>
+			</div>
 			
 
 			<?php echo form_open('contact/envio'); ?>
@@ -74,6 +96,7 @@ $(document).ready(function(){
 							'class'=> 'fade'
 					);
 				 ?>
+				 
 
 				 <?php echo  form_fieldset('Para mas informacion envie un correo llenando los datos del formulario');?>
 				 	
@@ -110,6 +133,9 @@ $(document).ready(function(){
 		</article>
 	
 		
-	
+<div class="separador"></div>	
 </section>
+
+</center>
+</div><!-- termina wrap-->
 
