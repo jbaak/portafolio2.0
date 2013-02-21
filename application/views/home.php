@@ -9,7 +9,7 @@
 
 			<div id="city1"></div>
 
-			<div id="city2"></div>
+			
 
 			<div id="layer1"></div>
 
@@ -50,7 +50,7 @@
 	
 	
 
-<section id="content">
+<section id="content" class="sombra">
 
 		<section id="conocimientos">
 				<center>
@@ -60,9 +60,15 @@
 				</center>
 		 </section>
 
+		 <div class="separador"></div>
+
 		<aside>
 			<div class="tit">
-				<div class="titulo"><img src="<?php echo BASE_URL()?>images/iconos/user.png"></div><div class="forma"></div><h2>Yo</h2>
+				<div class="titulo">
+					<img src="<?php echo BASE_URL()?>images/iconos/user.png">
+				</div>
+				<div class="forma"></div>
+				<h2>Yo</h2>
 			</div>
 			<div id="yo">
 
@@ -112,4 +118,5 @@
 	</section>
 	
 </section>
+
 </div><!-- termina wrap-->

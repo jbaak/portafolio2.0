@@ -1,6 +1,6 @@
 <div class="wrap sombra">
-<section id="content">
-		
+<section id="content-services">
+		<div class="separador"></div>
 		<section id="servicios-principal">
 			<div class="tit">
 				<div class="titulo"><img src="<?php echo BASE_URL()?>images/iconos/servicios.png"></div><div class="forma"></div><h2>servicios</h2>
@@ -106,7 +106,7 @@
 					
 				</ul>
 				<center>
-				<a class="fade contactar sindeco" href="<?php echo BASE_URL()?>contact">Contactar</a>
+				<a class="fade contactar sindeco" href="<?php echo BASE_URL()?>home/design">Ver catalogo </a>
 				</center>
 			</article>
 

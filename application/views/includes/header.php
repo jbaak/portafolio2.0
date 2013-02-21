@@ -67,7 +67,7 @@
 				var stage_top = 30;
 				//alert(stage_left);
 				
-				$('#plane1').sprite({fps: 8, no_of_frames: 14})
+				$('#plane1').sprite({fps: 8, no_of_frames: 2})
 					.spRandom({
 						top: 40,
 						left: stage_left + 20,

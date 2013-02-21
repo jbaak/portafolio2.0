@@ -8,7 +8,7 @@ type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 </script>
 End of Zopim Live Chat Script-->
 
-<footer>
+<footer style="<?php if(isset($estilo)){echo  $estilo;} ?>">
 	<div class="wrap">
 		<div class="col_i">
 			<h2>Powered with</h2>

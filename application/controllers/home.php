@@ -11,9 +11,16 @@ class Home extends CI_Controller {
 	{
 		$data['title'] = 'Mi Portafolio';
 		$data['main_content'] = 'home';
+		$data['estilo'] = 'position: relative;top:400px;';
 		$this->load->view('includes/template',$data);
 		
 		
+	}
+
+	public function design(){
+		$data['title'] = 'Diseño de tarjetas';
+		$data['main_content'] = 'design';
+		$this->load->view('includes/template',$data);
 	}
 
 
