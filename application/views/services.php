@@ -106,7 +106,7 @@
 					
 				</ul>
 				<center>
-				<a class="fade contactar sindeco" href="<?php echo BASE_URL()?>home/design">Ver catalogo </a>
+				<a class="fade contactar sindeco" href="<?php echo BASE_URL()?>contact">Contacto </a>
 				</center>
 			</article>
 

@@ -246,7 +246,7 @@ hgroup h3{
 	
 }
 
-#content p, #content-home p{
+#content p, #content-home p, #content-services p{
 	font-weight:bold;
 	color: #284366;
 }
